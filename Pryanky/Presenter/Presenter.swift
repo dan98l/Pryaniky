@@ -16,7 +16,7 @@ final class Presenter {
     private var cell:[Info] = []
     
     func start(completion: @escaping (Dictionary<String, Info>, [String]) -> () ) {
-        APIService.getWeatherData(urlString: "https://pryaniky.com/static/json/sample.json") { [weak self] result in
+        JSONService.getWeatherData(urlString: "https://pryaniky.com/static/json/sample.json") { [weak self] result in
              switch result {
                 case .success(let pryanikyList):
                     for i in [pryanikyList][0].data {

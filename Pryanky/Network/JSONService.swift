@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class APIService {
+final class JSONService {
     
     class func getWeatherData(urlString: String, completion: @escaping (Result<Pryaniky, Error>) -> ()) {
             

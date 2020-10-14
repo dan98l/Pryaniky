@@ -14,7 +14,7 @@
 		A53D9F5525373031004CC8B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53D9F5425373031004CC8B1 /* Assets.xcassets */; };
 		A53D9F5825373031004CC8B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53D9F5625373031004CC8B1 /* LaunchScreen.storyboard */; };
 		A53D9F6125373103004CC8B1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53D9F6025373103004CC8B1 /* Model.swift */; };
-		A53D9F6425373364004CC8B1 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53D9F6325373364004CC8B1 /* APIService.swift */; };
+		A53D9F6425373364004CC8B1 /* JSONService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53D9F6325373364004CC8B1 /* JSONService.swift */; };
 		A53D9F6825374417004CC8B1 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53D9F6725374417004CC8B1 /* Presenter.swift */; };
 		A53D9F6A2537453D004CC8B1 /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53D9F692537453D004CC8B1 /* DetailCell.swift */; };
 		A53D9F6D25377EBE004CC8B1 /* ExtensionUIImageView .swift in Sources */ = {isa = PBXBuildFile; fileRef = A53D9F6C25377EBE004CC8B1 /* ExtensionUIImageView .swift */; };
@@ -30,7 +30,7 @@
 		A53D9F5725373031004CC8B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A53D9F5925373031004CC8B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A53D9F6025373103004CC8B1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		A53D9F6325373364004CC8B1 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		A53D9F6325373364004CC8B1 /* JSONService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONService.swift; sourceTree = "<group>"; };
 		A53D9F6725374417004CC8B1 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		A53D9F692537453D004CC8B1 /* DetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
 		A53D9F6C25377EBE004CC8B1 /* ExtensionUIImageView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExtensionUIImageView .swift"; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		A53D9F622537332E004CC8B1 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				A53D9F6325373364004CC8B1 /* APIService.swift */,
+				A53D9F6325373364004CC8B1 /* JSONService.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -195,7 +195,7 @@
 			files = (
 				A53D9F6825374417004CC8B1 /* Presenter.swift in Sources */,
 				A53D9F5025373025004CC8B1 /* View.swift in Sources */,
-				A53D9F6425373364004CC8B1 /* APIService.swift in Sources */,
+				A53D9F6425373364004CC8B1 /* JSONService.swift in Sources */,
 				A53D9F4C25373025004CC8B1 /* AppDelegate.swift in Sources */,
 				A53D9F4E25373025004CC8B1 /* SceneDelegate.swift in Sources */,
 				A53D9F6A2537453D004CC8B1 /* DetailCell.swift in Sources */,
